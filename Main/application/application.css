@@ -1,0 +1,181 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+ #button{
+
+	-fx-background-color:black;
+	-fx-border-radius: 25;
+	-fx-background-radius: 22;
+
+}
+
+#button:hover{
+ -fx-background-color:rgb(132,126,126);
+ -fx-border-color:rgb(212,205,205);
+ -fx-border-width: 3;
+ 	-fx-opacity:100;
+		
+	
+}
+
+ #button2{
+
+	
+	-fx-background-color:#000000;
+	-fx-border-radius: 25;
+	-fx-background-radius: 22;
+}
+
+#button2:hover{
+	-fx-background-color:rgb(132,126,126);
+ -fx-border-color:rgb(212,205,205);
+ -fx-border-width: 3;
+ 	-fx-opacity:100;
+		
+		}
+#button3:hover{
+	-fx-opacity:0;
+	}
+#button4:hover{
+	-fx-opacity:0;
+	}
+	
+	
+	#cancel:hover{
+		
+		-fx-opacity:100;
+	}
+	#min:hover{
+		-fx-opacity:100;
+	}
+	
+	#t1{
+		
+	-fx-prompt-text-fill:white;
+	}
+	#t2{
+		
+	-fx-prompt-text-fill:white;
+	}#t3{
+		
+	-fx-prompt-text-fill:white;
+	}
+	#back:hover{
+		-fx-opacity:100;
+	}
+	#profile{
+		-fx-background-color: #018ad1;
+	}
+	
+	
+#password{
+		-fx-background-color: #018ad1;
+	}
+
+
+#gallery{
+		-fx-background-color: #018ad1;
+	}
+
+
+#logout{
+		-fx-background-color: #018ad1;
+	}
+
+	#profile:hover{
+		-fx-background-color:#000000;
+	
+	}
+	#cross,#min,#back{
+		-fx-background-color:white;
+		
+	}
+	#cross1{
+		-fx-background-color:white;
+		
+	}
+	#cross:hover,#min:hover,#back:hover{
+		-fx-background-color:black;
+	-fx-text-fill:white;
+	}
+	#cross1:hover{
+		-fx-background-color:red;
+	-fx-text-fill:white;
+	}
+	
+	#gallery:hover{
+		-fx-background-color:#000000;
+	
+	}
+	#password:hover{
+		-fx-background-color:#000000;
+	
+	}
+	#logout:hover{
+		-fx-background-color:#000000;
+	
+	}
+
+#change{
+		-fx-background-color:white;
+		
+	}
+	#change:hover{
+		-fx-background-color:black;
+	-fx-text-fill:white;
+	}
+	
+	.list-cell:odd{
+		-fx-background-color:white;
+		
+		
+	}
+	.list-cell:even{
+		-fx-background-color:white;
+		
+		
+	}
+	.list-view .scroll-bar:vertical .thumb{
+		-fx-background-color:black;
+		
+		-fx-background-radius:30 30 30 30;
+		
+	}
+	.list-view .scroll-bar:vertical .track{
+	-fx-background-color:white;
+	}
+	.list-view .scroll-bar:vertical .increment-button ,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+
+}
+
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " ";    
+    -fx-padding :0.0 0.15em;
+}
+	.list-view{
+		-fx-background-insets:0;
+		-fx-padding:0;
+	-fx-selection-bar:white;
+	
+	}
+	.list-list-cell:focused{
+		-fx-background-color:white;
+	}
+	
+	.friends .scroll-bar:vertical{
+		-fx-opacity:0;
+		-fx-padding:-7;
+	}
+	
+	#yourfriends,#cancel,#friendreq
+	{
+		-fx-background-color:white;
+	}
+	#yourfriends:hover,#cancel:hover,#friendreq:hover{
+		-fx-background-color:red;
+	-fx-text-fill:white;
+	}
+	

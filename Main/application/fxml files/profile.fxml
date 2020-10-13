@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="475.0" prefWidth="747.0" style="-fx-background-color: white;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.Profile">
+   <children>
+      <Label fx:id="prof" layoutX="96.0" layoutY="39.0" prefHeight="69.0" prefWidth="206.0" text="Profile">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" layoutX="96.0" layoutY="159.0" text="Harsh Jain">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="branch" layoutX="96.0" layoutY="241.0" text="BTech">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

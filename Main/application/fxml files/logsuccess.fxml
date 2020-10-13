@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainanchor" prefHeight="500.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Logsuccess">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-3.0" prefHeight="506.0" prefWidth="259.0" style="-fx-background-color: #0172ad;">
+         <children>
+            <Circle fx:id="profimg" fill="WHITE" layoutX="119.0" layoutY="67.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
+            <Button fx:id="profile" layoutX="-2.0" layoutY="201.0" mnemonicParsing="false" onAction="#profile" prefHeight="52.0" prefWidth="259.0" text="Profile" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="profile" layoutY="324.0" mnemonicParsing="false" onAction="#chat" prefHeight="52.0" prefWidth="259.0" text="Chat" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="gallery" layoutX="-2.0" layoutY="261.0" mnemonicParsing="false" onAction="#gallery" prefHeight="52.0" prefWidth="259.0" text="Gallery" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="password" layoutX="-2.0" layoutY="385.0" mnemonicParsing="false" onAction="#changepass" prefHeight="52.0" prefWidth="259.0" text="Change Password" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="logout" layoutY="446.0" mnemonicParsing="false" onAction="#logout" prefHeight="61.0" prefWidth="259.0" text="Logout" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Label fx:id="label" layoutX="61.0" layoutY="126.0" prefHeight="52.0" prefWidth="132.0" text="Harsh Jain" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Button layoutX="147.0" layoutY="99.0" mnemonicParsing="false" onAction="#editimg" prefHeight="12.0" prefWidth="35.0" text="Edit">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchor" layoutX="257.0" layoutY="29.0" prefHeight="475.0" prefWidth="747.0">
+         <children>
+            <Label layoutX="230.0" layoutY="150.0" prefHeight="88.0" prefWidth="240.0" text="Welcome">
+               <font>
+                  <Font size="55.0" />
+               </font>
+            </Label>
+            <Label fx:id="label1" layoutX="289.0" layoutY="238.0" prefHeight="80.0" prefWidth="332.0" text="Harsh">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="cross" layoutX="925.0" layoutY="-3.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="79.0" text="X">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="cross" layoutX="846.0" layoutY="-3.0" mnemonicParsing="false" onAction="#Min" prefHeight="39.0" prefWidth="79.0" text="-">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

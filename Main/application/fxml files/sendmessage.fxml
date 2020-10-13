@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" prefHeight="500.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SendMessage">
+   <children>
+      <Label fx:id="recievername" layoutX="99.0" layoutY="24.0" prefHeight="60.0" prefWidth="251.0" text="sanskar">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="message" layoutX="77.0" layoutY="416.0" prefHeight="50.0" prefWidth="376.0" />
+      <JFXListView fx:id="list" layoutX="59.0" layoutY="92.0" prefHeight="305.0" prefWidth="925.0" />
+      <Button layoutX="484.0" layoutY="421.0" mnemonicParsing="false" onAction="#send" prefHeight="51.0" prefWidth="86.0" style="-fx-background-color: white;">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-email-send-96.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="865.0" layoutY="48.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="70.0" style="-fx-background-color: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-cloud-refresh-64.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <ImageView fitHeight="60.0" fitWidth="85.0" layoutX="365.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-user-90.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="cross1" layoutX="900.0" layoutY="12.0" mnemonicParsing="false" onAction="#cross" prefHeight="30.0" prefWidth="86.0" text="X" />
+      <Button fx:id="cross" layoutX="801.0" layoutY="9.0" mnemonicParsing="false" onAction="#min" prefHeight="30.0" prefWidth="86.0" text="-" />
+      <Button fx:id="back" layoutX="31.0" layoutY="35.0" mnemonicParsing="false" onAction="#back" text="&lt;">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
